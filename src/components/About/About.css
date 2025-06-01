@@ -1,0 +1,65 @@
+.tech-sock{
+    display: block;
+    justify-content: center;
+    align-items:center;
+}
+
+.tech-sock h2,h4{
+    color:white;
+}
+
+
+.content-i{
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+  .img-cont img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%; /* Makes it circular */
+    object-fit: cover;
+    background-color: transparent; /* Just in case */
+  }
+  
+.crot{
+    justify-content: center;
+    align-items: center;
+}
+
+.crot i{
+    color:white;
+}
+
+.intro{
+    justify-content: center;
+}
+.highlight {
+    color: #00ffc3;
+    font-weight: 500;
+  }
+
+.intro{
+    padding: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+    background: rgba(255, 255, 255, 0.02); /* Optional subtle background */
+    border-radius: 12px;
+    transition: all 0.3s eas
+}
+.purple {
+    color: #a64aff;
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,67 @@
+/*
+.invisible-navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: center;
+    background: transparent !important;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    z-index: 999;
+    color: white;
+    
+}
+
+.invisible-navbar::backdrop{
+  background-color: yellow !important; /* black with 60% opacity */
+  /*backdrop-filter: blur(20px); /* optional: adds blur for glass effect */
+ /* -webkit-backdrop-filter: blur(20px); /* for Safari */
+ /* color: white;
+}
+
+
+
+.invisible-navbar a:hover {
+  color: blue;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.6rem;
+}*/
+
+.invisible-navbar {
+  background-color: transparent !important;
+  backdrop-filter: none;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  z-index: 999;
+  color:white;
+}
+
+.invisible-navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  visibility: hidden;
+  /*backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);*/
+}
+
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: blue !important;
+  text-decoration: underline; /* optional: underline on hover */
+}
+.top1 {
+  color:white;
+}

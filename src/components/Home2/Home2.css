@@ -1,0 +1,24 @@
+/* src/components/Home2/Home2.css */
+
+.home2-section {
+    padding: 80px 0; /* Add top and bottom padding */ /* Example light background color */
+    color: white; /* Default text color */
+  }
+  
+  
+  
+  .purple {
+    color: purple; /* Example purple color, replace with your brand color */
+  }
+  
+  .languages-heading {
+    color: white; 
+    font-size: 1.8rem; 
+    margin-bottom: 10px; 
+  }
+  
+  .languages-list {
+    font-size: 1.1rem;
+    font-weight: 500;
+    /* You can add more styles like letter-spacing or specific fonts here */
+  }

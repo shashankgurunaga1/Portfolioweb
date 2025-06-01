@@ -1,0 +1,45 @@
+/* About.css */
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if image container has height */
+    height:50px;
+    max-width: 100%;
+    width:50px;
+  }
+  
+  /* Example for the section */
+  .home-section {
+    position: relative;
+    padding: 60px 0; 
+    min-height: 100vh; /* Make it take full viewport height, adjust as needed */
+    align-items: center; /* Vertically center content */
+    display: flex;
+    overflow: hidden;
+    z-index: 1; 
+  }
+
+  .home-section .container-fluid {
+    position: relative; 
+    z-index: 1; 
+    width: 100%; /* Or specify a max-width if needed */
+  }
+
+  /* src/components/About/About.css */
+.content-container {
+    position: relative; /* Give it a position */
+    z-index: 1; /* Make sure it's above z-index -1 particles */
+    /* Ensure it occupies the necessary space */
+    min-height: 100%; /* If you want it to fill the section height */
+    justify-content: center; /* Center content vertically if using flex */
+    align-items: center; /* Center content horizontally if using flex */
+    padding-top: 20px; /* Add some padding to prevent content touching the top/bottom */
+    padding-bottom: 20px;
+}
+
+.typed-header{
+    color:white;
+}
+.img-src{
+  filter: brightness(0) invert(1);
+}

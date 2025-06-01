@@ -1,0 +1,35 @@
+.tech-stack2,.tech-stack3,.tech-stack4{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.tech-stack4:hover{
+    border-color:deeppink;
+    box-shadow: 0 0 12px deeppink, 0 0 24px deeppink;
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.tech-stack3:hover{
+      border-color:green;
+      box-shadow: 0 0 12px green, 0 0 24px green;
+      transform:scale(1.1);
+      cursor:pointer;
+}
+.tech-stack2:hover{
+        border-color: aqua;
+        box-shadow: 0 0 12px aqua ,0 0 24px aqua;
+        transform:scale(1.1) ;
+        cursor:pointer;
+}
+
+.para{
+    color:white;
+    font-size: x-large;
+}

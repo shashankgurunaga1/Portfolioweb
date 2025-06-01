@@ -1,0 +1,39 @@
+/* src/index.css or src/App.css */
+
+html, #root { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+  }
+
+body{
+  background-size: cover;
+}
+  
+  
+  /* Ensure any major content wrapper in your App.js also allows for full height */
+  #root {
+    display: flex; /* If your App component itself uses flex for main layout */
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the root container is at least full height */
+  }
+  
+  
+  .App { 
+    min-height: 100vh;
+    position: relative; 
+    display: flex;
+  flex-direction: column;
+  
+  }
+
+  .app-content {
+    position: relative; /* Ensures this content is in its own stacking context */
+    z-index: 1; /* Makes sure it's above the particles (which are z-index: -1) */
+    flex-grow: 1; /* Allows content to take up available space between header/footer */
+    /* Add padding as needed */
+    padding: 20px;
+  }
+
+  

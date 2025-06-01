@@ -1,0 +1,44 @@
+.row-list{
+   display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.circle-linkedin {
+    background-color: #0A66C2; /* LinkedIn blue */
+  }
+
+  .circle-github {
+    background-color: #333; /* GitHub dark */
+  }
+  .circle-twitter {
+    background-color: #333; /* GitHub dark */
+  }
+  .circle-instagram{
+    background-color:crimson;
+  }
+.icon-wrapper{
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease-in-out; /* Smooth transitions for hover effects */
+  cursor: pointer;
+}
+
+.shrok,.ghok,.iok,.grok{
+       color:white;
+       font-size: 1.5em;
+}
+
+
+.icon-wrapper:hover{
+    transform: translateY(-5px) scale(1.05);
+}
+
+
+
