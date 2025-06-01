@@ -89,7 +89,7 @@ function Project(){
                 <Row className="row1" style={{justifyContent:"center"}}>
                 <Col>
             <a href="https://github.com/shashankgurunaga1/solene_home_page_react" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-            <Card  className="card1" style={{ width: '18rem' }}>
+            <Card  className="card1" style={{ width: '17rem' }}>
             <Card.Img variant="top" src={Imgon8}/>
             <Card.Body>
                 <Card.Title>Solene Home Page (Implements React Parallax)</Card.Title>
