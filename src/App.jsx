@@ -11,9 +11,9 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    
+    <BrowserRouter>
       <div className="App" align="center">
-        <BrowserRouter>
+        
         <Particles1/>
         <Navbar2/>
         <div className="app-content"> 
@@ -29,8 +29,9 @@ function App() {
           <br/>
           <Footer/>
         </div>
-       </BrowserRouter>
+       
         </div>
+        </BrowserRouter>
        
   );
 }
