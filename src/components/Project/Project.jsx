@@ -7,7 +7,7 @@ import Imgon from "../../assets/result_graph2.jpeg";
 import Imgon2 from "../../assets/entrypage.png";
 import Imgon3 from "../../assets/Startupweb.jpg";
 import Imgon4 from "../../assets/multil.jpg";
-import Imgon5 from "../../assets/crimedetectionCNN.jpg";
+import Imgon5 from "../../assets/crimedetectioncnn.jpg";
 import Imgon6 from "../../assets/weather_dome.jpg";
 import Imgon7 from "../../assets/qb1.jpg";
 import Imgon8 from "../../assets/solene.jpg"
