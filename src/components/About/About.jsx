@@ -6,7 +6,7 @@ import "./About.css";
 import MyImg from "../../assets/IgImg.jpeg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import GitHubActivity from "./GitHubActivity";
+
 const About=()=>{
      return(
         
