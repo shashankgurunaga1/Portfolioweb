@@ -32,7 +32,6 @@ body{
     position: relative; /* Ensures this content is in its own stacking context */
     z-index: 1; /* Makes sure it's above the particles (which are z-index: -1) */
     flex-grow: 1; /* Allows content to take up available space between header/footer */
-    /* Add padding as needed */
     padding: 20px;
   }
 
