@@ -19,7 +19,7 @@ const Home1 = () => {
        <Row className="align-items-center justify-content-center text-center my-5">
         <Col md={7} className="wreck1">
         <h1 className="typed-header">
-        <ReactTyped strings={['Welcome to my Portfolio', 'I am Shashank Gurunaga', 'Enjoy the Parallax']}typeSpeed={40}backSpeed={30}loop/>
+        <ReactTyped strings={['Welcome to my Portfolio', 'I am Shashank Gurunaga', 'Dive in and explore!']}typeSpeed={40}backSpeed={30}loop/>
         </h1>
         </Col>
         
