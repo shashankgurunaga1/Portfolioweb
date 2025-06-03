@@ -1,4 +1,4 @@
-/* Base styles for the custom navbar */
+
 .customnavbar {
     background-color: transparent !important;
     backdrop-filter: none;
@@ -8,46 +8,46 @@
     color: white;
   }
   
-  /* When scrolled: enable blur and semi-transparent background */
+  
   .customnavbar.scrolled {
-    background-color: rgba(0, 0, 0, 0.4); /* translucent black */
+    background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    -webkit-backdrop-filter: blur(10px); 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
   
 
-/* Styles for collapsed navbar background when open (mobile view) */
+
 .customnavbar .navbar-collapse.show {
   background-color: rgba(0, 0, 0, 0.9); /* Darker background for expanded menu */
 }
 
-/* Styles for navigation links */
+
 .nav-link-custom {
-  color: white !important; /* Default link color */
-  padding: 10px 15px; /* Adjust padding as needed */
+  color: white !important; 
+  padding: 10px 15px; 
   transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 
 .nav-link-custom:hover,
 .nav-link-custom:focus {
-  color: #007bff !important; /* Blue on hover/focus */
-  text-decoration: none; /* No underline on hover */
+  color: #007bff !important; 
+  text-decoration: none;
 }
 
-/* Styles for the brand name */
+
 .brand-name {
-  color: white; /* Brand text color */
+  color: white; 
   font-weight: bold;
-  font-size: 1.5rem; /* Adjust font size as needed */
+  font-size: 1.5rem; 
 }
 
-/* Hover effect for brand name */
+
 .customnavbar .navbar-brand:hover .brand-name {
   color: #007bff; /* Blue on hover */
 }
 
-/* Styles for the navbar toggler icon */
+
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1); /* Light border for toggler */
 }
