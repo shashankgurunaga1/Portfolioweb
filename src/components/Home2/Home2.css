@@ -1,24 +1,40 @@
-/* src/components/Home2/Home2.css */
 
 .home2-section {
-    padding: 80px 0; /* Add top and bottom padding */ /* Example light background color */
-    color: white; /* Default text color */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+    color: white;
   }
   
-  
+  home2-content h2,
+.home2-content p,
+.languages-heading,
+.languages-list {
+  margin-bottom: 0.5rem;
+}
+
   
   .purple {
-    color: purple; /* Example purple color, replace with your brand color */
+    color: purple;
   }
   
   .languages-heading {
     color: white; 
-    font-size: 1.8rem; 
-    margin-bottom: 10px; 
+    font-size: 1.25rem;
+    font-weight: 600;
   }
   
   .languages-list {
     font-size: 1.1rem;
     font-weight: 500;
-    /* You can add more styles like letter-spacing or specific fonts here */
+   
+  }
+  .connect-heading {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .title1{
+    font-size: 1.75rem;  
+    font-weight: 600;
+    margin-bottom: 1rem;
   }

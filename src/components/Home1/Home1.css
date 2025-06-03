@@ -11,8 +11,8 @@
   /* Example for the section */
   .home-section {
     position: relative;
-    padding: 60px 0; 
-    min-height: 100vh; /* Make it take full viewport height, adjust as needed */
+    padding: 15px 0; 
+    min-height: 40vh; /* Make it take full viewport height, adjust as needed */
     align-items: center; /* Vertically center content */
     display: flex;
     overflow: hidden;
