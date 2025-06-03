@@ -13,9 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App" align="center">
-        
+      <Navbar2/>
         <Particles1/>
-        <Navbar2/>
+        
         <div className="app-content"> 
           
           
